@@ -20,7 +20,7 @@ const Portfolio = () => {
                         <div className="m-2 text-justify text-sm">
                             <img alt="Seeds" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={imgSeeds} />
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center">SEEDS</h4>
-                            <p className="text-md font-medium">
+                            <p className="text-lg font-medium">
                                 High-yielding, disease-resistant, and drought-tolerant seeds for cereals, vegetables, and other crops.
                             </p>
                             <div className="flex justify-center my-4">
@@ -37,7 +37,7 @@ const Portfolio = () => {
                         <div className="m-2 text-justify text-sm">
                             <img alt="Fertilizers" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={imgFertilizers} />
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center">FERTILIZERS</h4>
-                            <p className="text-md font-medium">
+                            <p className="text-lg font-medium">
                                 Conventional and organic fertilizers tailored to different soil types and crop requirements.
                             </p>
                             <div className="flex justify-center my-4">
@@ -52,8 +52,8 @@ const Portfolio = () => {
                     <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                         <div className="m-2 text-justify text-sm">
                             <img alt="Pesticides " className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={imgPesticides} />
-                            <h4 className="font-semibold my-4 text-lg md:text-2xl text-center">PESTICIDES & CROP PROTECTION</h4>
-                            <p className="text-md font-medium">
+                            <h4 className="font-semibold my -4 text-lg md:text-2xl text-center">PESTICIDES & CROP PROTECTION</h4>
+                            <p className="text-lg font-medium">
                                 A wide range of herbicides, fungicides, and insecticides to protect crops from pests and diseases.
                             </p>
                             <div className="flex justify-center my-4">
@@ -69,7 +69,7 @@ const Portfolio = () => {
                         <div className="m-2 text-justify text-sm">
                             <img alt="Farm Machinery" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={imgMachinery} />
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center">FARM MACHINERY & EQUIPMENT</h4>
-                            <p className="text-md font-medium">
+                            <p className="text-lg font-medium">
                                 Tractors, harvesters, planters, sprayers, and other machinery from leading global brands.
                             </p>
                             <div className="flex justify-center my-4">
