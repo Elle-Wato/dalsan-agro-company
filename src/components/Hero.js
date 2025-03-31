@@ -16,10 +16,11 @@ const Hero = () => {
                     <div id='hero' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-green-700">
-                                Innovative Software Solutions for the Agricultural Sector
+                                CULTIVATING GROWTH, HARVESTING SUCCESS
                             </h1>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
-                                We are a dedicated team of developers committed to enhancing agricultural productivity through technology.
+                                At Dalsan Agro Solutions, we believe that agriculture is the backbone of Somalia's economy. We invite farmers, agribusinesses and patners to join us in our mission to transform the agricultural
+                                sector and build a brighter future for rural communities.
                             </div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                                 <Link to="/contact" className="text-white bg-green-700 hover:bg-green-600 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">

@@ -7,11 +7,12 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
-// All pages
+
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import DemoProduct from './pages/DemoProduct';
-import Services from './components/Services'; // Import the Services page
+import Services from './components/Services'; 
+import Portfolio from './components/Portfolio'; // Import Portfolio (Products) page
 
 import { useDocTitle } from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
@@ -31,7 +32,6 @@ function App() {
     });
   }, []);
 
-  // Update the document title to reflect Dalsan Agro Solutions
   useDocTitle("Dalsan Agro Solutions | Empowering Agriculture with Technology");
 
   return (
@@ -42,7 +42,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} />
-            <Route path="/services" element={<Services />} /> {/* Add the Services route */}
+            <Route path="/services" element={<Services />} /> 
+            <Route path="/products" element={<Portfolio />} /> {/* Add the missing Products route */}
           </Routes>
         </ScrollToTop>
       </Router>
