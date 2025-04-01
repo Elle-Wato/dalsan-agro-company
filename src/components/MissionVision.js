@@ -1,19 +1,19 @@
 import React from 'react';
-import img from '../images/agriculture-tech.png'; // Update the image to reflect agriculture technology
+import img from '../images/agriculture.png'; // Update the image to reflect agriculture technology
 import { Link } from 'react-router-dom';
 
 const MissionVision = () => {
     return (
-        <div className="m-auto max-w-6xl p-2 md:p-12 h-5/6" id='about'>
+        <div className="m-auto max-w-6xl p-2 md:p-12 h-screen" id='about'>
             <div className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left" data-aos="fade-up">
                 <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                    <img alt="Agriculture Technology" className="rounded-t float-right" src={img} />
+                    <img alt="Agriculture Technology" className="rounded-t float-right w-[500%] h-[90vh] object-cover opacity-80" src={img} />
                 </div>
                 <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
                     <h3 className="text-3xl text-green-700 font-bold">Our Mission</h3>
                     <p className='my-3 text-xl text-gray-600 font-semibold'>
                         At <strong>Dalsan Agro Solutions</strong>, our mission is to procure and deliver high-quality agricultural inputs at competitive prices, provide safe working conditions and deliver quality services within a reasonable timeframe.
-                        We aim to empower farmers with the tools, knowledge and resources they need to achieve their fullest potential and contribut to a thriving agricultural sector.
+                        We aim to empower farmers with the tools, knowledge and resources they need to achieve their fullest potential and contribute to a thriving agricultural sector.
                     </p>
                     
                     <h3 className="text-3xl text-green-700 font-bold mt-6">Our Vision</h3>

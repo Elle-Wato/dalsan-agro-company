@@ -196,7 +196,7 @@ const Contact = () => {
                         
                             <div className='mt-5'>
                                 <h2 className="text-2xl">Send an E-mail</h2>
-                                <p className="text-gray-400">dalsan.agro.solutions@gmail.com</p>
+                                <p className="text-gray-400">info@dalsanagrosolutions.com</p>
                             </div>
                        
                         </div>

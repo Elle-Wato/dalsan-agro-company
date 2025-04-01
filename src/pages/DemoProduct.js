@@ -271,19 +271,19 @@ const DemoProduct = (props) => {
                                 
                                     <div className='mt-5'>
                                         <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-gray-400">dalsan.agro.solutions@gmail.com</p>
+                                        <p className="text-gray-400">info@dalsanagrosolutions.com</p>
                                     </div>
                             
                                 </div>
                             </div>
                             
                             <div className="flex my-4 w-2/3 lg:w-1/2">
-    <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900 w-8 mx-1 text-center pt-1">
+    <a href="https://www.tiktok.com/@dalsan.agro.solut" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900 w-8 mx-1 text-center pt-1" aria-label="TikTok">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-current font-black hover:animate-pulse'>
             <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10V6h-2v2h-2V4h2V2h-4v10a4 4 0 1 1-4-4v2a2 2 0 1 0 2 2V2h-2z"></path>
         </svg>
     </a>
-    <a href="https://twitter.com/" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900 w-8 mx-1 text-center pt-1">
+    <a href="https://twitter.com/dalsanagrosol" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900 w-8 mx-1 text-center pt-1" aria-label="Twitter">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-current font-black hover:animate-pulse'>
             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.46 2s-2 .94-3.86 1.17A4.48 4.48 0 0 0 11.5 6a12.94 12.94 0 0 1-9.39-4.76s-4 9 5 13a13.38 13.38 0 0 1-8.07 2.23c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.82A7.72 7.72 0 0 0 23 3z"></path>
         </svg>
